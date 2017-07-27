@@ -1,0 +1,317 @@
+@font-face {
+	font-family: 'RobotoMedium';
+	src: url('../fonts/RobotoMedium.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url('../fonts/RobotoMedium.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Heavy';
+	src: url('../fonts/RobotoMedium.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url(../fonts/RobotoMedium.ttf);
+}
+
+@font-face {
+	font-family: 'Mistral-regular';
+	src: url('../fonts/Mistral-regular.ttf')  format('truetype');
+}
+
+a:hover { text-decoration: none; }
+a:visited { text-decoration: none; } 
+a:active { text-decoration: none; }
+a:link { 
+    text-decoration: none;
+    color: white; /* Убирает подчеркивание для ссылок */
+   } 
+
+body {
+	min-width: 1024px;
+}
+
+header {
+	background: url(../images/back_top.jpg);
+	background-size: 100% 100%;
+	height: 550px;
+}
+
+.top_menu {
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+
+.logo {
+	height: 70px;
+	margin-top: 5px;
+	float: left;
+}
+
+.name {
+	margin-top: 25px;
+	margin-left: 20px;
+	float: left;
+	font-size: 16pt;
+	font-family: 'Lato-Heavy';
+	color: white;
+}
+
+.name span {
+	color: #f6ff60;
+}
+
+nav {
+	margin-top: 25px;
+	float: right;
+	font-size: 13pt;
+	font-family: 'Lato-regular';
+}
+
+nav a {
+	margin-right: 20px;
+	color: white;
+}
+
+nav a:hover {
+	color: #D1D1D1;
+}
+
+h1 {
+	margin-top: 130px;
+	font-family: 'Lato-Heavy';
+	text-align: center;
+	color: white;
+	font-size: 24pt;
+}
+
+h2 {
+	margin-top: -10px;
+	text-align: center;
+	font-family: 'Mistral-regular';
+	color: white;
+	font-size: 23pt;
+}
+
+.billbord {
+	width: 850px;
+	height: 150px;
+	margin-left: calc(50% - 425px);
+	margin-top: 120px;
+}
+
+.round_plate {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	background-color: #575451;
+	float: left;
+}
+
+.round_plate img {
+	margin: 15px 0 0 15px;
+}
+
+.straight {
+	float: left;
+	margin-top: 70px;
+}
+
+.round_plate p {
+	margin-top: 30px;
+	text-align: center;
+	width: 250px;
+	margin-left: -50px;
+}
+
+.round_plate p span {
+	font-size: 13pt;
+	font-family: 'Lato-heavy';
+}
+
+#direction {
+	background-color: #f7f7f7;
+	margin-top: 210px;
+}
+
+#direction .container-fluid {
+	position: relative;
+}
+
+h3 {
+	text-align: center;
+	font-size: 17pt;
+	color: #814848;
+}
+
+.direct_imgs {
+	margin-top: -5px;
+	margin-left: calc(50% - 420px);
+	float: left;
+}
+
+.direct_img {
+	width: 420px;
+	height: 260px;
+	float: left;
+	margin-right: 1px;
+}
+
+.overflow {
+	height: 260px;
+	width: 841px;
+	position: absolute;
+	margin-left: calc(50% - 435px);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	font-family: 'Lato-heavy';
+	font-size: 14pt;
+	opacity: 0;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.overflow:hover {
+	opacity: 1;
+}
+
+
+.dir_stripe {
+	background-color: rgba(255, 255, 255, 0.7);
+	height: 40px;
+	line-height: 40px;
+	width: 841px;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	text-align: center;
+	font-family: 'Lato-heavy';
+	font-size: 14pt;
+}
+
+.direct_img:last-child {
+	margin-right: 0px;
+}
+
+.shadow {
+	float: left;
+	margin-top: -30px;
+	margin-left: calc(50% - 420px);
+}
+
+.shadow_param {
+	width: 420px;
+	float: left;
+}
+
+#parcel {
+	background-color: #f44541;
+	height: 160px;
+	margin-top: 30px;
+}
+
+.pack {
+	width: 140px;
+	height: 140px;
+	margin-top: 10px;
+	margin-left: 20%;
+	float: left;
+}
+
+#parcel ul {
+	float: left;
+	color: white;
+	font-size: 15pt;
+	font-family: 'RobotoMedium';
+	margin-left: 10%;
+	margin-top: 35px;
+}
+
+#transport {
+	margin-top: 30px;
+}
+
+.transp_img {
+	width: calc(50% - 15px);
+}
+
+#numbers {
+	background-image: url(../images/num_back.jpg);
+	background-size: cover;
+	height: 200px;
+	margin-top: 30px;
+}
+
+.numbers_container {
+	margin-left: calc(50% - 480px);
+}
+
+#numbers ul {
+	list-style: none;
+	color: white;
+	font-size: 24pt;
+	font-family: 'Lato-regular';
+	float: left;
+	padding: 0px;
+}
+
+.viber {
+	width: 30px;
+	margin: -5px 0 0 5px;
+}
+
+.vertical_staright {
+	float: left;
+	height: 150px;
+	background-color: white;
+	width: 2px;
+	margin: 25px 50px 25px 50px;
+}
+
+.trubka {
+	float: left;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+footer {
+	background-color: #393939;
+	width: 100%;
+	float: left;
+}
+
+.logo_back {
+	background-image: url(../images/logo_back.png);
+	background-size: 100% 100%;
+	padding: 9px 7px 7px 9px;
+	height: 90px;
+	width: 90px;
+	margin-left: calc(50% - 45px);
+	margin-top: 50px;
+}
+
+.name_footer {
+	margin-top: 10px;
+	margin-left: calc(50% - 60px);
+}
+
+footer nav {
+	margin-top: 0px;
+	float: left;
+	margin-left: calc(50% - 200px);
+}
+
+.copyrights {
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #a6a6a6;
+	margin: 10px 0 20px 0;
+}
+
